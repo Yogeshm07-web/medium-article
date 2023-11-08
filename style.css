@@ -1,0 +1,49 @@
+/* Styles de la bannière */
+.banner {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner h1 {
+  font-size: 24px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+/* Styles du conteneur central */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles des liens réactifs */
+a {
+  color: #0077b6;
+  text-decoration: none;
+  transition: background-image 0.3s;
+  background-image: linear-gradient(to right, #f0a500, #f0a500);
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+
+a:hover {
+  background-image: linear-gradient(to right, #f0a500, #f0a500);
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-image: linear-gradient(to right, #ff5722, #ff5722);
+}
